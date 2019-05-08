@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sp_07_properties_xml/src/main/resources/Untitled 2&apos; to &apos;admin.properties&apos;" description="Rename resource &apos;Untitled 2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/Untitled 2" name="admin.properties" stamp="1552870556418" updateReferences="true"/>
+</session>

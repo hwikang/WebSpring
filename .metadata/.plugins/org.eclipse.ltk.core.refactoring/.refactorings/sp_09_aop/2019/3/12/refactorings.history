@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;sp_09_aop&apos; to &apos;kr.goott.aopHome&apos;&#x0D;&#x0A;- Original project: &apos;sp_09_aop&apos;&#x0D;&#x0A;- Original element: &apos;sp_09_aop/src/main/java/sp_09_aop&apos;&#x0D;&#x0A;- Renamed element: &apos;sp_09_aop/src/main/java/kr.goott.aopHome&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;sp_09_aop&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;sp_09_aop" name="kr.goott.aopHome" qualified="false" references="true" stamp="1552875403283" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+#cardbody{
+    width: 375px;
+    /* max-width: 60%; */
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+ }
+ 
+ .ui.card{
+     /* //height:500px; */
+     margin-top:100px;
+     
+ }
+ #profileImage{
+     width:100%;
+     margin-top:10px;
+    }
+ 
+ .likeBtn{
+     margin:10px;
+     color:red;
+
+ }

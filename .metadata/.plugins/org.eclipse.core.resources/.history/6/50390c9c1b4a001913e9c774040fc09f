@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+	width:1000px;
+	margin:0 auto;
+	
+}
+ul,li{
+	margin:0px;
+	padding:0px;
+	list-style:none;	
+}
+li{
+	height:30px;
+	float:left;
+	width:10%;
+}
+li:nth-child(2){
+	width:60%x
+}

@@ -1,0 +1,18 @@
+.editBtn{
+    width:100%;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+}
+.editBtn button{
+    width:50%;
+}
+#description{
+    width:100%;
+    height:50px;
+}
+
+input{
+    border:none;
+    color:grey;
+}

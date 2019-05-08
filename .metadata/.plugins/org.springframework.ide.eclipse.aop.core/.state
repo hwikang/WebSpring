@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="sp_09_aop">
+<aspect-definition advice-class-name="kr.goott.aopHome.AopProcess" advice-method-name="aopProcess(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="16" aspect-name="aopProcess" aspect-start-line-number="16" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/sp_09_aop/src/main/resources/applicationCTX.xml" pointcut-expression="pointcutMethod()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:sp_09_aop|3:src/main/resources/applicationCTX.xml|7:beans:6|8:sampleProcess:17" bean-file="/sp_09_aop/src/main/resources/applicationCTX.xml" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/sp_09_aop/src/main/resources/applicationCTX.xml" source="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{AopProcess.java[AopProcess~aopProcess~QProceedingJoinPoint;" source-start-line="20" target="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{SampleProcess.java[SampleProcess~gugudan" target-start-line="14"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:sp_09_aop|3:src/main/resources/applicationCTX.xml|7:beans:6|8:sampleProcess:17" bean-file="/sp_09_aop/src/main/resources/applicationCTX.xml" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/sp_09_aop/src/main/resources/applicationCTX.xml" source="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{AopProcess.java[AopProcess~aopProcess~QProceedingJoinPoint;" source-start-line="20" target="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{SampleProcess.java[SampleProcess~sum~I" target-start-line="5"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:sp_09_aop|3:src/main/resources/applicationCTX.xml|7:beans:6|8:sampleProcess:17" bean-file="/sp_09_aop/src/main/resources/applicationCTX.xml" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/sp_09_aop/src/main/resources/applicationCTX.xml" source="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{AopProcess.java[AopProcess~aopProcess~QProceedingJoinPoint;" source-start-line="20" target="=sp_09_aop/src\/main\/java&lt;kr.goott.aopHome{SampleProcess.java[SampleProcess~number" target-start-line="23"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="sp_08_properties_javaBean"/>
+<aop-project name="sp_10_web"/>
+<aop-project name="sp_15_mybatis"/>
+<aop-project name="sp_11_webapp"/>
+<aop-project name="test"/>
+<aop-project name="sp_07_properties_xml"/>
+<aop-project name="sp_13_fileUpload"/>
+<aop-project name="sp_14_ajax"/>
+<aop-project name="sp_12_jdbcTemplete"/>
+</aop-reference-model>

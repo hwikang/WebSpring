@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="sp_10_web::org.eclipse.jst.jee.server:sp_10_web::jst.web::2.5" value1="sp_11_webapp::org.eclipse.jst.jee.server:sp_11_webapp::jst.web::2.5" value2="sp_12_jdbcTemplete::org.eclipse.jst.jee.server:sp_12_jdbcTemplete::jst.web::2.5" value3="sp_13_fileUpload::org.eclipse.jst.jee.server:sp_13_fileUpload::jst.web::2.5" value4="sp_14_ajax::org.eclipse.jst.jee.server:sp_14_ajax::jst.web::2.5" value5="sp_15_mybatis::org.eclipse.jst.jee.server:sp_15_mybatis::jst.web::2.5" value6="test::org.eclipse.jst.jee.server:test::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost mb-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost mb" name="Tomcat v9.0 Server at localhost mb" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="sp_15_mybatis::org.eclipse.jst.jee.server:sp_15_mybatis::jst.web::2.5" value1="test::org.eclipse.jst.jee.server:test::jst.web::2.5"/>
+  </server>
+</servers>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+	
+	<!-- 로그인 여부에 따라 interceptor 처리
+		어떤 컨트롤러 매핑 주소에서 인터셉터가 발생하는지 등록하는곳
+		beans 태그에 mvc, context 추가
+	 -->
+	 <mvc:interceptors>
+	 	<mvc:interceptor>
+	 		<mvc:mapping path="/view"></mvc:mapping>  <!-- 다 가로채서 interceptor로 보냄 -->
+	 		<mvc:mapping path="/write"></mvc:mapping>
+	 		<mvc:mapping path="/edit"></mvc:mapping>
+	 		<bean class="kr.goott.web.LoginInterceptor"></bean>
+	 	</mvc:interceptor>
+	 
+	 </mvc:interceptors>
+
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.goott.web.board.BoardDAOInterface">
+	<!-- interface의 메소드명을 이렇게 불러옴, 객체명이됨 -->
+	<!--resulttype 은 리턴값의 타입  -->
+	<select id="selectAll" resultType="kr.goott.web.board.BoardVO">
+		select recordno,userid,title,hit,to_char(regdate,'YY--MM-DD') regdate from freeboard
+	</select>
+	<insert id="insertRecord" parameterType="kr.goott.web.board.BoardVO">
+		insert into freeboard values(boardsq.nextval,#{userid:VARCHAR},#{title},#{content},0,#{ip},sysdate)
+	</insert>
+	<select id="selectOne" resultType="kr.goott.web.board.BoardVO">
+		select * from freeboard where recordno= #{param1}
+	</select>
+	<update id="updateRecord">
+		update freeboard set title=#{title} , content = #{content}, ip=#{ip} where recordNo = #{recordNo}
+	</update>
+</mapper>
+

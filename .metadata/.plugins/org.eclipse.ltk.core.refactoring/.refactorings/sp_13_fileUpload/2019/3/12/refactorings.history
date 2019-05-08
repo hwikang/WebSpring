@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;root-context.xml&apos; to &apos;appServlet&apos;&#x0D;&#x0A;- Original project: &apos;sp_13_fileUpload&apos;&#x0D;&#x0A;- Destination element: &apos;appServlet&apos;&#x0D;&#x0A;- Original element: &apos;root-context.xml&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/spring/root-context.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1553227986536" target="/sp_13_fileUpload/src/main/webapp/WEB-INF/spring/appServlet" units="0" version="1.0"/>
+</session>
